@@ -33,7 +33,7 @@ def hello():
     
     message_command = request.values.get('Body')
     print(message_command)
-    system("pause")
+ 
     if "bot frase" in message_command.lower():
             message = frase_gerador()
 
